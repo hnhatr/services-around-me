@@ -1,8 +1,19 @@
 // require the dependencies we installed
-var app = require('express')();
+var express = require('express');
 var responseTime = require('response-time')
 var axios = require('axios');
 var redis = require('redis');
+var bodyParser = require('body-parser');
+
+
+// Express
+var app = express();
+
+/**
+ * bodyParser
+ */
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // create a new redis client and connect to our local redis instance
 var client = redis.createClient();
