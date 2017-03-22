@@ -31,7 +31,7 @@ app.use(responseTime());
 // if a user visits /api/facebook, return the total number of stars 'facebook'
 // has across all it's public repositories on GitHub
 app.get('/api/:username', function(req, res) {
-
+  res.send ("abc");
 });
 
 app.listen(app.get('port'), function(){

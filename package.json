@@ -4,10 +4,12 @@
     "description": "Allows search services around you",
     "main": "app.js",
     "scripts": {
+        "start": "node app.js",
+        "deploy": "gcloud app deploy",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "",
+    "author": "coins",
     "license": "ISC",
     "dependencies": {
         "axios": "^0.15.3",
