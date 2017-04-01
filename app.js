@@ -5,6 +5,7 @@ var axios = require('axios');
 var redis = require('redis');
 var bodyParser = require('body-parser');
 
+var apisearch = require ('./routes/search');
 
 // Express
 var app = express();
@@ -27,6 +28,11 @@ app.set('port', (process.env.PORT || 3000));
 
 // set up the response-time middleware
 app.use(responseTime());
+
+// Routes
+app.use('/', require('./routes/api'));
+app.get('/api/search', apisearch.searchplace);
+app.get('/api/test', apisearch.test);
 
 // if a user visits /api/facebook, return the total number of stars 'facebook'
 // has across all it's public repositories on GitHub
