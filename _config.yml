@@ -3,6 +3,7 @@ name: services-around-me
 description: services for searching, bussiness online
 url: https://hnhatr.github.io
 baseurl: /services-around-me
+paginate: 5
 defaults:
 - scope:
     path: blog
@@ -28,3 +29,11 @@ defaults:
   values:
     layout: default
     sectionid: versions
+exclude:
+- Gemfile
+- README.md
+sass:
+  sass_dir: ./_sass
+gems:
+- jekyll-redirect-from
+- jekyll-paginate
