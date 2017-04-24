@@ -1,10 +1,10 @@
 {% if page.excerpt %}
 {% assign type = 'article' %}
-{% assign sectionTitle = 'ReactXP Blog' %}
+{% assign sectionTitle = 'SAMe Blog' %}
 {% assign description = page.excerpt | strip_html %}
 {% else %}
 {% assign type = 'website' %}
-{% assign sectionTitle = 'ReactXP' %}
+{% assign sectionTitle = 'SAMe' %}
 {% assign description = 'A library for cross-platform development' %}
 {% endif %}
 {% assign title = page.title | append: ' - ' | append: sectionTitle %}
