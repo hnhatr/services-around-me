@@ -1,4 +1,4 @@
-# GYMsServer
+# Near place service server
 
 ## Library references:
 
