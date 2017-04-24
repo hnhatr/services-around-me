@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
+name: services-around-me
+description: services for searching, bussiness online
+url: https://hnhatr.github.io
+baseurl: /services-around-me
