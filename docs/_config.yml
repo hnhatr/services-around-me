@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
-description: A JavaScript library for building user interfaces
-url: https://facebook.github.io
-baseurl: /react
+description: A JavaScript library for building server
+url: https://hnhatr.github.io
+baseurl: /services-around-me
 gems:
+  - jekyll-redirect-from
   - jekyll-paginate
