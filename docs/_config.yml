@@ -2,11 +2,11 @@ theme: jekyll-theme-cayman
 description: A JavaScript library for building server
 url: https://hnhatr.github.io
 baseurl: /services-around-me
-gems:
-  - jekyll-redirect-from
-  - jekyll-paginate
 exclude:
-  - Gemfile
-  - README.md
-  sass:
-    sass_dir: ./_sass
+- Gemfile
+- README.md
+sass:
+sass_dir: ./_sass
+gems:
+- jekyll-redirect-from
+- jekyll-paginate
