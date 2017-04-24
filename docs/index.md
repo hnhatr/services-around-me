@@ -8,7 +8,7 @@ id: home
   <div class="marketing-row">
     <div class="marketing-col">
       <h3>Building on React</h3>
-      <p>ReactXP builds on the popular React JS and React Native frameworks.</p>
+      <p>SAMe builds on the popular React JS and React Native frameworks.</p>
     </div>
     <div class="marketing-col">
       <h3>XP means X-Platform</h3>
