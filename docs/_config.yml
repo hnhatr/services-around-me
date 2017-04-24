@@ -3,6 +3,9 @@ name: services-around-me
 description: services for searching, bussiness online
 url: https://hnhatr.github.io
 baseurl: /services-around-me
+exclude:
+- Gemfile
+- README.md
 gems:
 - jekyll-redirect-from
 - jekyll-paginate
