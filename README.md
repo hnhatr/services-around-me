@@ -1,4 +1,4 @@
-# Near place service server
+# services-around-me Server
 
 ## Library references:
 
