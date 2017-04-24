@@ -7,81 +7,43 @@ id: home
 <section class="light home-section">
   <div class="marketing-row">
     <div class="marketing-col">
-      <h3>Declarative</h3>
-      <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
-      <p>Declarative views make your code more predictable and easier to debug.</p>
+      <h3>Building on React</h3>
+      <p>ReactXP builds on the popular React JS and React Native frameworks.</p>
     </div>
     <div class="marketing-col">
-      <h3>Component-Based</h3>
-      <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
-      <p>Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+      <h3>XP means X-Platform</h3>
+      <p>Share most of your code between the web, iOS, Android, and Windows.</p>
     </div>
     <div class="marketing-col">
-      <h3>Learn Once, Write Anywhere</h3>
-      <p>We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.</p>
-      <p>React can also render on the server using Node and power mobile apps using <a href="https://facebook.github.io/react-native/">React Native</a>.</p>
+      <h3>Apps Users Will Love</h3>
+      <p>Create great-looking, responsive web pages and mobile apps that feel native.</p>
     </div>
   </div>
 </section>
 <hr class="home-divider" />
 <section class="home-section">
-  <div id="examples">
-    <div class="example">
-      <h3>A Simple Component</h3>
+  <div id="overview">
+    <div class="overview-section">
       <p>
-        React components implement a `render()` method that takes input data and
-        returns what to display. This example uses an XML-like syntax called
-        JSX. Input data that is passed into the component can be accessed by
-        `render()` via `this.props`.
+        The authors of React use the phrase “learn once, write anywhere”. With React and React 
+        Native, your web app can share most its logic with your iOS and Android apps, but the view 
+        layer needs to be implemented separately for each platform. We have taken this a step further 
+        and developed a thin cross-platform layer we call ReactXP. If you write your app to this 
+        abstraction, you can share your view definitions, styles and animations across multiple target 
+        platforms. Of course, you can still provide platform-specific UI variants, but this can be done
+        selectively where desired.
       </p>
       <p>
-        <strong>JSX is optional and not required to use React.</strong> Try
-        clicking on "Compiled JS" to see the raw JavaScript code produced by
-        the JSX compiler.
+        ReactXP is designed with cross-platform development in mind. In general, it exposes
+        APIs, components, props, styles and animation parameters that are implemented in
+        a consistent way across React JS (HTML) and React Native for iOS and Android. A few
+        platform-specific props and style attributes have been exposed, but we have tried to
+        keep these to a minimum.
       </p>
-      <div id="helloExample"></div>
-    </div>
-    <div class="example">
-      <h3>A Stateful Component</h3>
       <p>
-        In addition to taking input data (accessed via `this.props`), a
-        component can maintain internal state data (accessed via `this.state`).
-        When a component's state data changes, the rendered markup will be
-        updated by re-invoking `render()`.
+        ReactXP is meant to be as lightweight as possible. The “core” components and APIs are
+        limited to the functionality required for almost all applications. Extensions to
+        ReactXP expose more specialized functionality in a similar cross-platform manner.
       </p>
-      <div id="timerExample"></div>
-    </div>
-    <div class="example">
-      <h3>An Application</h3>
-      <p>
-        Using `props` and `state`, we can put together a small Todo application.
-        This example uses `state` to track the current list of items as well as
-        the text that the user has entered. Although event handlers appear to be
-        rendered inline, they will be collected and implemented using event
-        delegation.
-      </p>
-      <div id="todoExample"></div>
-    </div>
-    <div class="example">
-      <h3>A Component Using External Plugins</h3>
-      <p>
-        React is flexible and provides hooks that allow you to interface with
-        other libraries and frameworks. This example uses **remarkable**, an
-        external Markdown library, to convert the textarea's value in real time.
-      </p>
-      <div id="markdownExample"></div>
     </div>
   </div>
-  <script src="/react/js/remarkable.min.js"></script>
-  <script src="/react/js/examples/hello.js"></script>
-  <script src="/react/js/examples/timer.js"></script>
-  <script src="/react/js/examples/todo.js"></script>
-  <script src="/react/js/examples/markdown.js"></script>
-</section>
-<hr class="home-divider" />
-<section class="home-bottom-section">
-  <div class="buttons-unit">
-    <a href="docs/hello-world.html" class="button">Get Started</a>
-    <a href="tutorial/tutorial.html" class="button">Take the Tutorial</a>
-  </div>
-</section>
