@@ -1,6 +1,6 @@
 ---
 layout: hero
-title: A JavaScript library for building user interfaces
+title: A JavaScript library for building server
 id: home
 ---
 
